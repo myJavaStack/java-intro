@@ -16,4 +16,5 @@ using a constant or variable of type int.
 - When you instantiate an array of primitive types, numeric types are
 set to zeros and boolean types to false.
 - When you create an array of objects, they are set to nulls.
-
+![array methods 2](./images/arrayMethods2.png)
+![array methods 1](./images/arrayMethods1.png)
