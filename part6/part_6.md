@@ -31,8 +31,70 @@ can let the array list default to an initial capacity of 10 elements.
 - The capacity of an array list automatically increases whenever
 necessary.
 ```
-ArrayList<E>()
-Creates an empty array list with an
+ArrayList<E>() Creates an empty array list with an
 initial capacity of ten objects of the
 specified type.
+```
+
+```
+ArrayList<E>(intCapacity) Creates an empty array list with the
+specified capacity.
+```
+
+```
+ArrayList<E>(Collection) Creates an array list containing the
+elements of the specified
+collection.
+```
+
+```
+add(object) Adds the specified object to the end of the list.
+```
+
+```
+clear() Removes all elements from the list.
+```
+
+```
+contains(object) Returns true if the specified object is in the
+list.
+```
+
+```
+get(index) Returns the object at the specified index
+position.
+```
+
+```
+indexOf(object) Returns the index position of the specified
+object.
+```
+
+```
+isEmpty() Returns true if the list is empty.
+```
+
+```
+remove(index) Removes the object at the specified index
+position.
+```
+
+```
+set(index, object) Sets the element at the specified index to the
+specified object.
+```
+
+```
+size() Returns the number of elements in the list.
+```
+
+```
+toArray() Returns an array containing the elements of
+the list.
+```
+
+e.g.
+```
+// create an array list of type String
+ArrayList<String> codes = new ArrayList<String>();
 ```
