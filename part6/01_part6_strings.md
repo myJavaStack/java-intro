@@ -44,11 +44,11 @@ string starting at the specified index.
 trim() This method returns a copy of the string, with leading and trailing whitespace omitted.
 ```
 
-* 7.
+* 7. Note that,we just have substring, and not substr. Also, ending index is not included.
 ```
 substring(startIndex) Returns a String object that starts at the specified index and goes to the end of the string.
 ```
-* 8.
+* 8. Note that is no slice(), or substr() in JAVA
 ```
 substring(startIndex, endIndex) Returns a String object that starts at the specified start index and goes to, but doesn’t include, the end index.
 ```
